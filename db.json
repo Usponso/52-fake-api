@@ -1,14 +1,38 @@
 {
-  "lanistes":[
-    { "id": 1, "email": "fabrice.claeys@yopmail.com", "password": "monMotDeP@sse", "laniste": "fabrice"}
+  "lanistes": [
+    {
+      "id": 1,
+      "email": "enaverlant@gmail.com",
+      "password": "monMotDeP@sse",
+      "laniste": "Usponso",
+      "deniers": 10
+    }
   ],
-  "ludis":[
-    { "id":1, "nom": "Ludi 1", "specialite": "COURSE_DE_CHAR", "lanisteId": 1}
+  "ludis": [
+    {
+      "id": 1,
+      "nom": "Ludi 1",
+      "specialite": "LUTTE",
+      "lanisteId": 1
+    }
   ],
   "gladiateurs": [
-    { "id": 1, "nom": "Gladiateur 1", "adresse": 1, "force": 2, "equilibre": 1, "vitesse": "2", "strategie": "0", "ludiId": 1}
+    {
+      "id": 1,
+      "nom": "Gladiateur 1",
+      "adresse": 2,
+      "force": 1,
+      "equilibre": 2,
+      "vitesse": 0,
+      "strategie": 1,
+      "ludiId": 1
+    }
   ],
   "entrainements": [
-    { "id": 1, "gladiateurId": 1, "date": "2022-05-02T14:17:52.517Z"}
+    {
+      "id": 1,
+      "gladiateurId": 1,
+      "date": "2022-05-02T14:17:52.517Z"
+    }
   ]
 }
